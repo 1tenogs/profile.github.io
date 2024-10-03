@@ -1,0 +1,176 @@
+/* Base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#about {
+    font-size: 6px;
+    font-family: 'Poppins', sans-serif; /* Ensure the font is Poppins */
+}
+
+/* Header styles */
+header {
+    background-color: #1e3a8a; /* Dark blue */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: #1e3a8a; /* Dark blue */
+    border-bottom: 2px solid #1e3a8a;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+.highlighted {
+    font-size: 1.2em; /* Increase font size */
+    text-decoration: underline; /* Underline text */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+}
+
+section p, section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* About section styles */
+
+.profile-photo {
+    border-radius: 60%; /* Makes the image circular */
+    width: 600px; /* Adjust the size as needed */
+    height: 220px; /* Adjust the size as needed */
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+
+
+
+/* Certificates section styles */
+.certificate-photo {
+    border: 2px solid #1e3a8a; /* Dark blue */
+    border-radius: 0.5rem; /* Makes the image square with rounded corners */
+    transition: transform 0.3s ease;
+}
+
+.certificate-photo:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+    background-color: #1e3a8a; /* Dark blue */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffcc00; /* Yellow */
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header, main, footer {
+        padding: 1rem;
+    }
+
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .certificate-photo {
+        width: 100%;
+    }
+}
+.accordion-button {
+    background-color: #0e0e8c; /* Blue background */
+    color: #FFFFFF; /* White text */
+    padding: 10px;
+    border: none;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, font-size 0.3s ease, text-decoration 0.3s ease;
+    font-size: 1.25rem; /* Larger font size */
+    font-family: 'Arial', sans-serif; /* Change to a more special font if desired */
+}
+
+.accordion-button:hover {
+    background-color: #000099; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+    font-size: 1.35rem; /* Slightly larger font size on hover */
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #000000; /* Black text */
+}
+.footer p {
+    font-size: 1.25rem; /* Larger font size for the call-to-action */
+    color: #FFFFFF; /* White text */
+}
+
+.footer a {
+    font-size: 1.5rem; /* Larger icon size */
+    color: #0000FF; /* Blue icons */
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #000099; /* Darker blue on hover */
+}
+.footer a {
+    font-size: 2rem; /* Larger icon size */
+    color: #292d27; /* Change to your desired color */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer a:hover {
+    color: #00cc0017; /* Darker color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+.details-list {
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 20px; /* Indent the list */
+    font-weight: bold; /* Thicker font */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    font-size: 13px; /* Set font size */
+}
+
